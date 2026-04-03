@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F7F9FC];
+  }
+}
+
+/* Duolingo-style shadows */
+.btn-shadow-blue {
+  box-shadow: 0 4px 0 #1899D6;
+}
+
+.btn-shadow-green {
+  box-shadow: 0 4px 0 #46A302;
+}
+
+.btn-shadow-gray {
+  box-shadow: 0 4px 0 #E5E5E5;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
